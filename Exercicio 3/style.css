@@ -1,0 +1,34 @@
+:root{
+    --branco: white;
+    --azul: rgb(70, 142, 236) ;
+    --black: rgba(0, 0, 0, 0.363);
+}
+
+
+body{
+    background-color: var(--azul) ;
+    font: normal 15pt arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: var(--branco);
+    text-align: center;
+}
+
+section{
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:  5px 5px 10px var(--black);
+}
+
+footer{
+    color: var(--branco);
+    text-align: center;
+    font-style: italic;
+}
